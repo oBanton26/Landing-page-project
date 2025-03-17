@@ -13,7 +13,7 @@ body {
 
 .section-one {
     background-color: #1F2937;
-    padding: 0px 300px;
+    padding: 0px 300px 60px;
     color: #F9FAF8;
 }
 
@@ -37,6 +37,17 @@ a {
 h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 5px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    width: 160px;
+    font-size: 20px;
+    padding: 10px;
+    color: inherit;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 
@@ -60,10 +71,25 @@ li {
 
 .hero {
     display: flex;
-    margin: 40px 0px;
+    margin: 80px 0px;
     gap: 30px;
 }
 
 .img-placeholder {
-    flex-shrink: 1;
+    flex: 1;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+p {
+    flex: auto;
+}
+
+img {
+    max-width: 100%;
+    flex: 1;
 }

@@ -85,7 +85,7 @@ li {
     flex: 1;
 }
 
-p {
+.section-one p {
     flex: auto;
 }
 
@@ -123,4 +123,26 @@ h2 {
 .card img {
     border: 3px solid #3882F6;
     border-radius: 10px;
+}
+
+
+
+/* SECTION THREE */
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 100px 450px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: end;
 }
